@@ -250,19 +250,19 @@
           
           <!-- LangSelect start -->
           <!-- LangSelect -->
+
 <li>
   <a id="lang-select-label"><i class="fa fa-globe"></i>
-    <span>
-      简体中文
-    </span>
-    <select id="lang-select" data-canonical="cn/hello-world/">
+    <span>简体中文</span>
+    <select id="lang-select">
       
       
-      <option value="en" >
+      <option value="en" data-href="/en/hello-world/">
         English
       </option>
       
-      <option value="cn"  selected >
+      
+      <option value="cn" data-href="" selected>
         简体中文
       </option>
       
@@ -471,10 +471,10 @@
         <!-- Pager -->
         <ul class="pager">
           
-          <li class="previous">
-            <a href="/en/hello-world/" data-toggle="tooltip" data-placement="top" title="Hello World">&larr; Previous Post</a>
-          </li>
           
+          <li class="next">
+            <a href="/en/hello-world/" data-toggle="tooltip" data-placement="top" title="Hello World">Next Post &rarr;</a>
+          </li>
           
         </ul>
 

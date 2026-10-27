@@ -4,25 +4,7 @@
   <url>
     <loc>https://blog.vesperon.online/tags/index.html</loc>
     
-    <lastmod>2026-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.vesperon.online/categories/index.html</loc>
-    
-    <lastmod>2026-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.vesperon.online/en/archive/index.html</loc>
-    
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +13,7 @@
   <url>
     <loc>https://blog.vesperon.online/en/tags/index.html</loc>
     
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -39,6 +21,24 @@
   
   <url>
     <loc>https://blog.vesperon.online/en/categories/index.html</loc>
+    
+    <lastmod>2026-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.vesperon.online/categories/index.html</loc>
+    
+    <lastmod>2026-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.vesperon.online/en/archive/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.vesperon.online/en/hello-world/</loc>
+    <loc>https://blog.vesperon.online/cn/hello-world/</loc>
     
     <lastmod>2026-10-25</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.vesperon.online/cn/hello-world/</loc>
+    <loc>https://blog.vesperon.online/en/hello-world/</loc>
     
     <lastmod>2026-10-25</lastmod>
     
