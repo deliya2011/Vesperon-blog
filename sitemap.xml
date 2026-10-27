@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.vesperon.online/en/hello-world/</loc>
+    <loc>https://blog.vesperon.online/cn/hello-world/</loc>
     
     <lastmod>2026-10-25</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.vesperon.online/cn/hello-world/</loc>
+    <loc>https://blog.vesperon.online/en/hello-world/</loc>
     
     <lastmod>2026-10-25</lastmod>
     
@@ -99,6 +99,34 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://blog.vesperon.online/tags/OI/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.vesperon.online/tags/AI/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.vesperon.online/tags/%E8%A7%82%E9%B8%9F/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.vesperon.online/tags/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
