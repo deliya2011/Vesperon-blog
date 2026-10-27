@@ -503,11 +503,6 @@
   <script async type="text/javascript" src="/js/totop.js"></script>
 
   
-    <!-- Busuanzi JavaScript -->
-    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  
-
-  
     <!-- Scroll start -->
     <script async="async" type="text/javascript" src="/js/scroll.js"></script>
     <!-- Scroll end -->
@@ -575,6 +570,58 @@ https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
 <!-- jquery.tagcloud.js -->
 <!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("https://blog.vesperon.online/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
 start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+<!-- 访问量计数：abacus.jasoncameron.dev（原不蒜子接口已失效） -->
+<script>
+(function () {
+  var API = 'https://abacus.jasoncameron.dev';
+  var NS = 'vesperon-blog';
+
+  function call(kind, key) {
+    return fetch(API + '/' + kind + '/' + NS + '/' + key, { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+  }
+  function fmt(n) { return (n == null) ? '\u2014' : Number(n).toLocaleString('en-US'); }
+  function setText(id, v) { var el = document.getElementById(id); if (el) el.textContent = fmt(v); }
+
+  // 站点总访问量 / 独立访客
+  if (document.getElementById('vc_site_pv') || document.getElementById('vc_site_uv')) {
+    var pvKey = 'site-views', uvKey = 'site-visitors';
+    var pvCounted, uvCounted;
+    try { pvCounted = sessionStorage.getItem('vc_pv'); } catch (e) {}
+    try { uvCounted = localStorage.getItem('vc_uv'); } catch (e) {}
+
+    call(pvCounted ? 'get' : 'hit', pvKey).then(function (d) {
+      setText('vc_site_pv', d.value);
+      try { sessionStorage.setItem('vc_pv', '1'); } catch (e) {}
+      var w = document.getElementById('visitor-widget');
+      if (w) w.style.display = '';
+    }).catch(function () {});
+
+    call(uvCounted ? 'get' : 'hit', uvKey).then(function (d) {
+      setText('vc_site_uv', d.value);
+      try { localStorage.setItem('vc_uv', '1'); } catch (e) {}
+    }).catch(function () {});
+  }
+
+  // 单篇文章阅读量
+  var postEl = document.getElementById('vc_post_pv');
+  if (postEl) {
+    var key = 'p' + location.pathname.replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    if (key.length < 4) key = 'p-index';
+    var done = false;
+    try { done = !!sessionStorage.getItem('vc_' + key); } catch (e) {}
+    call(done ? 'get' : 'hit', key).then(function (d) {
+      postEl.textContent = fmt(d.value);
+      try { sessionStorage.setItem('vc_' + key, '1'); } catch (e) {}
+      var wrap = document.getElementById('vc_post_pv_wrap');
+      if (wrap) wrap.style.display = '';
+    }).catch(function () {});
+  }
+})();
+</script>
+
 
 
 		<!-- Search -->

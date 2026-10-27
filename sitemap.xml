@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.vesperon.online/cn/hello-world/</loc>
+    <loc>https://blog.vesperon.online/en/hello-world/</loc>
     
     <lastmod>2026-10-25</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.vesperon.online/en/hello-world/</loc>
+    <loc>https://blog.vesperon.online/cn/hello-world/</loc>
     
     <lastmod>2026-10-25</lastmod>
     
@@ -94,7 +94,7 @@
 
   <url>
     <loc>https://blog.vesperon.online/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
