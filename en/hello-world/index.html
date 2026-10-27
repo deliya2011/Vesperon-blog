@@ -526,7 +526,41 @@
         <hr>
 
         <!-- comments start -->
-        <!-- 1. gitalk comment -->
+        <!-- 0. utterances（GitHub Issues，无需服务端 / 无密钥） -->
+
+  <!-- utterances start -->
+  <div class="utterances-wrap">
+    <script src="https://utteranc.es/client.js"
+      repo="deliya2011/vesperon-blog"
+      issue-term="pathname"
+      label="comment"
+      theme="github-dark"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </div>
+  <script>
+    // 跟随站点明暗切换同步评论框主题
+    (function () {
+      function themeName() {
+        return document.body.classList.contains('body--dark') ? 'github-dark' : 'github-light';
+      }
+      function syncTheme() {
+        var f = document.querySelector('iframe.utterances-frame');
+        if (f && f.contentWindow) {
+          f.contentWindow.postMessage({ type: 'set-theme', theme: themeName() }, 'https://utteranc.es');
+        }
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var btn = document.querySelector('.toggle');
+        if (btn) btn.addEventListener('click', function () { setTimeout(syncTheme, 60); });
+      });
+    }());
+  </script>
+  <!-- utterances end -->
+
+
+<!-- 1. gitalk comment -->
 
 
 <!-- 2. gitment comment -->
