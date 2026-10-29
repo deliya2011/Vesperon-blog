@@ -985,3 +985,30 @@ textarea.gt-header-textarea::placeholder {
 }
 
 /* ================================================ Switch color mode button End ======================================================= */
+
+/* ===== 修正：主题把代码块的明暗变量写反了 =====
+   .body--light 里是深色配色、.body--dark 里是浅色，深色页面因此出现白底代码块。
+   <body> 同时带这两个类，规则后声明者生效，故 .body--dark 必须写在后面。 */
+.body--light {
+  --post-container-highlight-background: #f6f9fc;
+  --post-container-highlight-color: #4d4d4c;
+  --post-container-highlight-pre: #c82829;
+  --post-container-highlight-pre-comment: #8e908c;
+  --post-container-highlight-pre-function: #4271ae;
+  --post-container-highlight-pre-keyword: #8959a8;
+  --post-container-highlight-pre-number: #f5871f;
+  --post-container-highlight-pre-ruby: #718c00;
+  --post-container-highlight-pre-title: #3e999f;
+}
+
+.body--dark {
+  --post-container-highlight-background: #1d1f21;
+  --post-container-highlight-color: #c5c8c6;
+  --post-container-highlight-pre: #c66;
+  --post-container-highlight-pre-comment: #969896;
+  --post-container-highlight-pre-function: #81a2be;
+  --post-container-highlight-pre-keyword: #b294bb;
+  --post-container-highlight-pre-number: #de935f;
+  --post-container-highlight-pre-ruby: #b5bd68;
+  --post-container-highlight-pre-title: #8abeb7;
+}
