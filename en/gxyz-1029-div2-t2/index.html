@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+<head>
+  <!-- Google Analytics -->
+  
+
+  <!-- Baidu Tongji -->
+  
+
+  <!-- Baidu Push -->
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <!-- 作者的搜索引擎验证标签已移除：保留它们会让别人的 Google/百度账号能验证你的域名所有权 -->
+  <!-- 你自己要用时，把从 Search Console 拿到的 meta 贴在这里 -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="羽毛落处，皆是归处；于万千轻盈中，拾得其一。"/>
+  <meta name="keyword" content="Vesperon,blog"/>
+  <link rel="shortcut icon" href="/img/avatar/favicon.png"/>
+
+  
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      };
+    </script>
+    <script id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="/css/highlight.css"/>
+    <link rel="stylesheet" href="/css/widget.css"/>
+    <link rel="stylesheet" href="/css/rocket.css"/>
+    <link rel="stylesheet" href="/css/signature.css"/>
+    <link rel="stylesheet" href="/css/catalog.css"/>
+    <link rel="stylesheet" href="/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="https://blog.vesperon.online/en/gxyz-1029-div2-t2/">
+  <title>
+    
+      GXYZ 10.29 Div2 T2 — AI School Bus - Gathering Feathers
+    
+  </title>
+<meta name="generator" content="Hexo 8.1.2"></head>
+
+
+<!-- hack iOS CSS :active style -->
+
+	<body ontouchstart="" class="body--light body--dark">
+
+
+		<!-- ThemeColor -->
+		
+		<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<button class="toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</button>
+<script>
+  function getCookieValue(name) {
+    var match = document.cookie.match('(^|[^;]+)\\s*' + name + '\\s*=\\s*([^;]+)');
+    return match ? match.pop() : '';
+  }
+
+  var savedTheme = getCookieValue('sb-color-mode');
+  if (savedTheme === 'dark' || savedTheme === 'light') {
+    document.body.classList.toggle('body--dark', savedTheme === 'dark');
+  }
+
+  var toggleBtn = document.querySelector('.toggle');
+  function updateThemeToggle() {
+    toggleBtn.setAttribute('aria-pressed', String(document.body.classList.contains('body--dark')));
+  }
+  updateThemeToggle();
+
+  toggleBtn.addEventListener('click', function () {
+    document.body.classList.toggle('body--dark');
+    var theme = document.body.classList.contains('body--dark') ? 'dark' : 'light';
+    var exp = new Date();
+    exp.setFullYear(exp.getFullYear() + 1);
+    document.cookie = 'sb-color-mode=' + theme + ';expires=' + exp.toUTCString() + ';path=/;SameSite=Lax';
+    updateThemeToggle();
+  });
+</script>
+
+		
+
+		<!-- Gitter -->
+		
+
+		<!-- Navigation (contains search)-->
+		<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/en/">Vesperon</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/en/">HOME</a>
+          </li>
+
+          
+          
+          
+          
+          
+          <li>
+            <a href="/en/categories/">CATEGORIES</a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/en/tags/">TAGS</a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/en/archive/">ARCHIVES</a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/about/">ABOUT</a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>SEARCH</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          <!-- LangSelect start -->
+          <!-- LangSelect -->
+
+<li>
+  <a id="lang-select-label"><i class="fa fa-globe"></i>
+    <span>English</span>
+    <select id="lang-select">
+      
+      
+      <option value="en" data-href="" selected>
+        English
+      </option>
+      
+      
+      <option value="cn" data-href="/cn/gxyz-1029-div2-t2/">
+        简体中文
+      </option>
+      
+    </select>
+  </a>
+</li>
+
+          <!-- LangSelect end -->
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+		<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+		<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.45)), url('/img/header_img/sunshine-sea.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.45)), url('');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.56)), url('/img/header_img/archive_bg2.jpg');
+    }
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.52)), url('/img/header_img/sunshine-sea.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.52)), url('');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.62)), url('/img/header_img/archive_bg2.jpg');
+    }
+
+    header.intro-header {
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url(''); */
+      
+    }
+
+    
+  </style>
+
+
+<!-- Keep the wave edge flush with the header when the theme is served from a CDN. -->
+<style>
+  .preview-overlay .preview-waves {
+    display: block;
+    vertical-align: top;
+  }
+
+  a:focus:not(:focus-visible),
+  button:focus:not(:focus-visible) {
+    outline: none;
+  }
+</style>
+
+
+
+
+<header class="intro-header">
+  <!-- Signature -->
+  <div id="signature">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          
+          <div class="post-heading">
+            <div class="tags">
+              
+              <a class="tag" href="/tags/#oi" title="oi">oi</a>
+              
+            </div>
+            <h1>GXYZ 10.29 Div2 T2 — AI School Bus</h1>
+            <h2 class="subheading"></h2>
+            <span class="meta">
+              Posted by Vesperon on
+              2026-10-29
+            </span>
+
+
+            
+            <!-- WordCount start -->
+            <div class="blank_box"></div>
+            <span class="meta">
+              Estimated Reading Time <span class="post-count">9</span> Minutes
+            </span>
+            <div class="blank_box"></div>
+            <span class="meta">
+              Words <span class="post-count">1.4k</span> In Total
+            </span>
+            <div class="blank_box"></div>
+            <!-- WordCount end -->
+            
+            
+            <!-- 单篇阅读量（abacus 计数） start -->
+            <span class="meta" id="vc_post_pv_wrap" style="display:none">
+              Viewed <span id="vc_post_pv">&mdash;</span> Times
+            </span>
+            <!-- 单篇阅读量 end -->
+            
+
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- waveoverlay start -->
+  <div class="preview-overlay">
+    <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+      </defs>
+      <g class="preview-parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+        <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+        <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+      </g>
+    </svg>
+  </div>
+  <!-- waveoverlay end -->
+  
+
+</header>
+
+
+<!-- 页面级背景构图微调：在页面 front-matter 里写 header-position 即可 -->
+
+
+
+		<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <blockquote>
+<p>Topics: tree difference, tree DP</p>
+</blockquote>
+<h1>AI School Bus</h1>
+<h2 id="Problem-Statement">Problem Statement</h2>
+<p>On the new campus of Tengyang Academy there are $n$ buildings, of which building $1$ is the charging station. The buildings are connected by $n-1$ bidirectional roads, forming a tree rooted at $1$.</p>
+<p>To make it easier for students to get around, the academy has put an AI school bus into service. At any one time the bus can carry at most $l$ passengers.</p>
+<p>At noon dismissal today, the bus had just finished charging at building $1$. Then $m$ students wanted a ride: the $i$-th student is currently at building $a_i$ and wants to reach a building $b_i$ inside the subtree of $a_i$.</p>
+<p>Now please plan a route for the bus so that every student reaches their destination while the total distance travelled by the bus is as small as possible.</p>
+<blockquote>
+<p>Note: a student is allowed to get on and off several times along the way. See Sample 1.</p>
+</blockquote>
+<h2 id="Input">Input</h2>
+<p>Read from the file <code>bus.in</code>.</p>
+<p>The first line contains three positive integers $n, l, m$: the number of buildings, the maximum capacity of the bus, and the number of students.</p>
+<p>The next $n-1$ lines each contain three positive integers $x, y, z$, meaning there is a bidirectional road from $x$ to $y$ of length $z$.</p>
+<p>The next $m$ lines each contain two positive integers $a, b$, meaning a student wants to travel from $a$ to $b$.</p>
+<h2 id="Output">Output</h2>
+<p>Write to the file <code>bus.out</code>.</p>
+<p>Output the minimum total distance the bus travels.</p>
+<h2 id="Sample-1">Sample 1</h2>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">5 2 3</span><br><span class="line">1 2 1</span><br><span class="line">2 3 1</span><br><span class="line">3 4 1</span><br><span class="line">2 5 1</span><br><span class="line">1 5</span><br><span class="line">1 4</span><br><span class="line">2 4</span><br></pre></td></tr></table></figure>
+<h2 id="Sample-Output-1">Sample Output 1</h2>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
+<h2 id="Sample-1-Explanation">Sample 1 Explanation</h2>
+<ul>
+<li>There are $3$ students: student 1 goes from $1$ to $5$, student 2 from $1$ to $4$, student 3 from $2$ to $4$.</li>
+<li>One optimal plan is:
+<ol>
+<li>The bus is at building $1$; students 1 and 2 get on.</li>
+<li>It drives to building $2$ and lets student 2 off.</li>
+<li>It carries student 1 to building $5$, and student 1 has arrived.</li>
+<li>It drives back empty to building $2$.</li>
+<li>Students 2 and 3 get on, and the bus carries both of them to building $4$.</li>
+</ol>
+</li>
+</ul>
+<h2 id="Samples-2–4">Samples 2–4</h2>
+<p>See the distributed files <code>bus2~4.in</code>.</p>
+<h2 id="Sample-Outputs-2–4">Sample Outputs 2–4</h2>
+<p>See the distributed files <code>bus2~4.out</code>.</p>
+<h2 id="Constraints">Constraints</h2>
+<ul>
+<li>For $20%$ of the data: $n \le 100$;</li>
+<li>For another $20%$ of the data: the tree is a chain;</li>
+<li>For another $20%$ of the data: every student has $a = 1$;</li>
+<li>For $100%$ of the data:
+<ul>
+<li>$1 \le n, l, m, z \le 10^5$;</li>
+<li>$1 \le a_i, b_i \le n$, and every $b_i$ lies in the subtree of $a_i$.</li>
+</ul>
+</li>
+</ul>
+<p><img src="bus-sample.png" alt="Sample diagram"></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//【Core idea】</span></span><br><span class="line"><span class="comment">//1. &quot;A student may get on and off several times&quot; means a passenger does not have to</span></span><br><span class="line"><span class="comment">//   ride straight to the end; we only need to count how many times each edge has to be</span></span><br><span class="line"><span class="comment">//   traversed downwards.</span></span><br><span class="line"><span class="comment">//2. Demand on an edge:</span></span><br><span class="line"><span class="comment">//   Students whose route crosses this edge into a deeper part of the tree: maintain with</span></span><br><span class="line"><span class="comment">//   a tree difference pass[b]++, pass[a]--; summing over the subtree gives the count.</span></span><br><span class="line"><span class="comment">//   Students whose destination lies in the subtree: maintain with d[b]++; after the</span></span><br><span class="line"><span class="comment">//   subtree sum, if it is &gt; 0 the bus must drive in at least once.</span></span><br><span class="line"><span class="comment">//3. Number of downward trips k:</span></span><br><span class="line"><span class="comment">//   the capacity forces ceil(pass/l) trips;</span></span><br><span class="line"><span class="comment">//   if any destination lies inside the subtree, at least 1 trip is needed.</span></span><br><span class="line"><span class="comment">//   So k = max(ceil(pass/l), (d &gt; 0 ? 1 : 0)).</span></span><br><span class="line"><span class="comment">//4. Total distance:</span></span><br><span class="line"><span class="comment">//   assuming every trip has to come back the same way, sum = Σ(2*k*edge weight).</span></span><br><span class="line"><span class="comment">//5. Saving the return trip:</span></span><br><span class="line"><span class="comment">//   the final trip need not return to the start; use a tree DP to find the longest</span></span><br><span class="line"><span class="comment">//   path starting at the root that does not need to come back, dp[1].</span></span><br><span class="line"><span class="comment">//   Final answer ans = sum - dp[1].</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">Graph</span>&#123;</span><br><span class="line">    <span class="type">static</span> <span class="type">const</span> <span class="type">size_t</span> npos=<span class="keyword">static_cast</span>&lt;<span class="type">size_t</span>&gt;(<span class="number">-1</span>);</span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">Edge</span>&#123;</span><br><span class="line">        <span class="type">size_t</span> v;</span><br><span class="line">        T payload;</span><br><span class="line">        <span class="type">size_t</span> nxt;</span><br><span class="line">    &#125;;</span><br><span class="line">    vector&lt;Edge&gt; edges;</span><br><span class="line">    vector&lt;<span class="type">size_t</span>&gt; head;</span><br><span class="line">    <span class="built_in">Graph</span>(<span class="type">size_t</span> n):<span class="built_in">head</span>(n,npos)&#123;&#125;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">add</span><span class="params">(<span class="type">size_t</span> u,<span class="type">size_t</span> v,T payload)</span></span>&#123;</span><br><span class="line">        edges.<span class="built_in">push_back</span>(&#123;v,payload,head[u]&#125;);</span><br><span class="line">        head[u]=edges.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">Iterator</span>&#123;</span><br><span class="line">        Graph *from;</span><br><span class="line">        <span class="type">size_t</span> now;</span><br><span class="line">        <span class="built_in">Iterator</span>(Graph *_from,<span class="type">size_t</span> _now):<span class="built_in">from</span>(_from),<span class="built_in">now</span>(_now)&#123;&#125;</span><br><span class="line">        Edge &amp;<span class="keyword">operator</span>*()&#123;<span class="keyword">return</span> from-&gt;edges[now];&#125;</span><br><span class="line">        <span class="type">void</span> <span class="keyword">operator</span>++()&#123;now=from-&gt;edges[now].nxt;&#125;</span><br><span class="line">        <span class="type">bool</span> <span class="keyword">operator</span>==(Iterator other)<span class="type">const</span>&#123;<span class="keyword">return</span> from==other.from&amp;&amp;now==other.now;&#125;</span><br><span class="line">        <span class="type">bool</span> <span class="keyword">operator</span>!=(Iterator other)<span class="type">const</span>&#123;<span class="keyword">return</span> !(*<span class="keyword">this</span>==other);&#125;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">FromNode</span>&#123;</span><br><span class="line">        Graph *from;</span><br><span class="line">        <span class="type">size_t</span> u;</span><br><span class="line">        <span class="built_in">FromNode</span>(Graph *_from,<span class="type">size_t</span> _u):<span class="built_in">from</span>(_from),<span class="built_in">u</span>(_u)&#123;&#125;</span><br><span class="line">        <span class="function">Iterator <span class="title">begin</span><span class="params">()</span></span>&#123;<span class="keyword">return</span> <span class="built_in">Iterator</span>(from,from-&gt;head[u]);&#125;</span><br><span class="line">        <span class="function">Iterator <span class="title">end</span><span class="params">()</span></span>&#123;<span class="keyword">return</span> <span class="built_in">Iterator</span>(from,npos);&#125;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="function">FromNode <span class="title">get</span><span class="params">(<span class="type">size_t</span> u)</span></span>&#123;<span class="keyword">return</span> <span class="built_in">FromNode</span>(<span class="keyword">this</span>,u);&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="type">const</span> <span class="type">size_t</span> Graph&lt;T&gt;::npos;</span><br><span class="line"><span class="comment">//Thanks to dunshen for the graph template ((</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Vesperon&#123;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXN=<span class="number">100005</span>;</span><br><span class="line"><span class="type">int</span> n,l,m;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> pass[MAXN];</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> d[MAXN];</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> k1[MAXN];</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> fa[MAXN];</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> dp[MAXN];</span><br><span class="line"><span class="comment">//【Reducing the tree difference】</span></span><br><span class="line"><span class="comment">//Post-order (bottom-up). The +1 and -1 marks placed at the bottom nodes are accumulated</span></span><br><span class="line"><span class="comment">//into their ancestors while the recursion unwinds. When dfs1 finishes, for any node u:</span></span><br><span class="line"><span class="comment">//pass[u] = how many students&#x27; routes cross downwards through the edge fa-&gt;u</span></span><br><span class="line"><span class="comment">//d[u]    = how many students&#x27; destinations lie in the subtree of u</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs1</span><span class="params">(Graph&lt;<span class="type">long</span> <span class="type">long</span>&gt;&amp; g,<span class="type">int</span> u,<span class="type">int</span> p)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span>&amp; e:g.<span class="built_in">get</span>(u))&#123;</span><br><span class="line">        <span class="keyword">if</span>(e.v!=p)&#123;</span><br><span class="line">            fa[e.v]=e.payload;</span><br><span class="line">            <span class="built_in">dfs1</span>(g,e.v,u);</span><br><span class="line">            pass[u]+=pass[e.v];</span><br><span class="line">            d[u]+=d[e.v];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//【Tree DP】</span></span><br><span class="line"><span class="comment">//The problem does not require ending at node 1, so the last trip may stop at some destination.</span></span><br><span class="line"><span class="comment">//We want the longest downward path from the root whose edges really have to be travelled (k1&gt;0).</span></span><br><span class="line"><span class="comment">//dp[u] = the longest one-way distance that can be saved starting from u.</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs2</span><span class="params">(Graph&lt;<span class="type">long</span> <span class="type">long</span>&gt;&amp; g,<span class="type">int</span> u,<span class="type">int</span> p)</span></span>&#123;</span><br><span class="line">    dp[u]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span>&amp; e:g.<span class="built_in">get</span>(u))&#123;</span><br><span class="line">        <span class="keyword">if</span>(e.v!=p)&#123;</span><br><span class="line">            <span class="built_in">dfs2</span>(g,e.v,u);</span><br><span class="line">            <span class="comment">//Transition: if the edge to child v has to be travelled (trips &gt; 0),</span></span><br><span class="line">            <span class="comment">//we may continue down through v and save this return distance.</span></span><br><span class="line">            <span class="keyword">if</span>(k1[e.v]&gt;<span class="number">0</span>)dp[u]=<span class="built_in">max</span>(dp[u],dp[e.v]+e.payload);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">work</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;bus.in&quot;</span>,<span class="string">&quot;r&quot;</span>,stdin);</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;bus.out&quot;</span>,<span class="string">&quot;w&quot;</span>,stdout);</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;l&gt;&gt;m;</span><br><span class="line">    <span class="function">Graph&lt;<span class="type">long</span> <span class="type">long</span>&gt; <span class="title">g</span><span class="params">(n<span class="number">+1</span>)</span></span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;n;i++)&#123;</span><br><span class="line">        <span class="type">int</span> x,y,z;</span><br><span class="line">        cin&gt;&gt;x&gt;&gt;y&gt;&gt;z;</span><br><span class="line">        g.<span class="built_in">add</span>(x,y,z);</span><br><span class="line">        g.<span class="built_in">add</span>(y,x,z);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//【Marking the tree difference】</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;i++)&#123;</span><br><span class="line">        <span class="type">int</span> a,b;</span><br><span class="line">        cin&gt;&gt;a&gt;&gt;b;</span><br><span class="line">        <span class="keyword">if</span>(a!=b)&#123;</span><br><span class="line">            <span class="comment">//The student goes from a to b, and b is always inside the subtree of a:</span></span><br><span class="line">            <span class="comment">//1. Count the crossings: the edges on the path (a,b) are covered once.</span></span><br><span class="line">            <span class="comment">//   With a tree difference, add 1 at the destination b and -1 at the start a.</span></span><br><span class="line">            pass[b]++;</span><br><span class="line">            pass[a]--;</span><br><span class="line">            <span class="comment">//2. Count destinations: b is a destination, so mark +1 here; after the</span></span><br><span class="line">            <span class="comment">//   recursion this gives the number of destinations in every subtree.</span></span><br><span class="line">            d[b]++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">dfs1</span>(g,<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> sum=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">2</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        <span class="type">long</span> <span class="type">long</span> pas=pass[i];</span><br><span class="line">        <span class="type">long</span> <span class="type">long</span> de=d[i];</span><br><span class="line">        <span class="type">long</span> <span class="type">long</span> k=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">if</span>(pas&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="comment">//pas people cross this edge, capacity is l, so the number of trips (rounded up)</span></span><br><span class="line">            k=<span class="built_in">max</span>(k,(pas+l<span class="number">-1</span>)/l);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(de&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="comment">//Even if nobody crosses this edge, the bus must drive in as long as the</span></span><br><span class="line">            <span class="comment">//subtree contains a destination, so at least 1 trip</span></span><br><span class="line">            k=<span class="built_in">max</span>(k,<span class="number">1LL</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        k1[i]=k;</span><br><span class="line">        sum+=<span class="number">2LL</span>*k*fa[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">dfs2</span>(g,<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> ans=sum-dp[<span class="number">1</span>];</span><br><span class="line">    cout&lt;&lt;ans&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);</span><br><span class="line">    cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line">    <span class="keyword">return</span> Vesperon::<span class="built_in">work</span>(),<span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+        <hr>
+        <!-- Pager -->
+        
+        <ul class="pager">
+          
+          
+          <li class="next">
+            <a href="/en/birdwatching/" data-toggle="tooltip" data-placement="top" title="On Birdwatching">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      If you like this blog or find it useful for you, you are welcome to comment on it. You are also welcome to share this blog, so that more people can participate in it. If the images used in the blog infringe your copyright, please contact the author to delete them. Thank you !
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" rel="noopener noreferrer" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" rel="noopener noreferrer" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" rel="noopener noreferrer" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" rel="noopener noreferrer" class="social-share-icon" href="mailto:?subject=GXYZ 10.29 Div2 T2 — AI School Bus&body=Hi,I found this website and thought you might like it https://blog.vesperon.online/en/gxyz-1029-div2-t2/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 0. utterances（GitHub Issues，无需服务端 / 无密钥） -->
+
+  <!-- utterances start -->
+  <div class="utterances-wrap">
+    <script src="https://utteranc.es/client.js"
+      repo="deliya2011/vesperon-blog"
+      issue-term="pathname"
+      label="comment"
+      theme="github-dark"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </div>
+  <script>
+    // 跟随站点明暗切换同步评论框主题
+    (function () {
+      function themeName() {
+        return document.body.classList.contains('body--dark') ? 'github-dark' : 'github-light';
+      }
+      function syncTheme() {
+        var f = document.querySelector('iframe.utterances-frame');
+        if (f && f.contentWindow) {
+          f.contentWindow.postMessage({ type: 'set-theme', theme: themeName() }, 'https://utteranc.es');
+        }
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var btn = document.querySelector('.toggle');
+        if (btn) btn.addEventListener('click', function () { setTimeout(syncTheme, 60); });
+      });
+    }());
+  </script>
+  <!-- utterances end -->
+
+
+<!-- 1. gitalk comment -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">FEATURED TAGS</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#oi" title="oi">oi</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>FRIENDS</h5>
+        <ul class="list-inline friend-links">
+
+          
+          <li>
+            <a href="https://blog.qaaxaap.living/zh/" target="_blank">Qaaxaap</a>
+          </li>
+          
+          <li>
+            <a href="https://pulsar33550336.github.io/" target="_blank">Pulsar</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+
+		<!-- Footer (contains ThemeColor、viewer) -->
+		<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/deliya2011">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Vesperon
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="/js/hux-blog.min.js"></script>
+  <!-- catalog -->
+  <script async type="text/javascript" src="/js/catalog.js"></script>
+  <!-- totop(rocket) -->
+  <script async type="text/javascript" src="/js/totop.js"></script>
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("https://blog.vesperon.online/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+<!-- 访问量计数：abacus.jasoncameron.dev（原不蒜子接口已失效） -->
+<script>
+(function () {
+  var API = 'https://abacus.jasoncameron.dev';
+  var NS = 'vesperon-blog';
+
+  function call(kind, key) {
+    return fetch(API + '/' + kind + '/' + NS + '/' + key, { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+  }
+  function fmt(n) { return (n == null) ? '\u2014' : Number(n).toLocaleString('en-US'); }
+  function setText(id, v) { var el = document.getElementById(id); if (el) el.textContent = fmt(v); }
+
+  // 站点总访问量 / 独立访客
+  if (document.getElementById('vc_site_pv') || document.getElementById('vc_site_uv')) {
+    var pvKey = 'site-views', uvKey = 'site-visitors';
+    var pvCounted, uvCounted;
+    try { pvCounted = sessionStorage.getItem('vc_pv'); } catch (e) {}
+    try { uvCounted = localStorage.getItem('vc_uv'); } catch (e) {}
+
+    call(pvCounted ? 'get' : 'hit', pvKey).then(function (d) {
+      setText('vc_site_pv', d.value);
+      try { sessionStorage.setItem('vc_pv', '1'); } catch (e) {}
+      var w = document.getElementById('visitor-widget');
+      if (w) w.style.display = '';
+    }).catch(function () {});
+
+    call(uvCounted ? 'get' : 'hit', uvKey).then(function (d) {
+      setText('vc_site_uv', d.value);
+      try { localStorage.setItem('vc_uv', '1'); } catch (e) {}
+    }).catch(function () {});
+  }
+
+  // 单篇文章阅读量
+  var postEl = document.getElementById('vc_post_pv');
+  if (postEl) {
+    var key = 'p' + location.pathname.replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    if (key.length < 4) key = 'p-index';
+    var done = false;
+    try { done = !!sessionStorage.getItem('vc_' + key); } catch (e) {}
+    call(done ? 'get' : 'hit', key).then(function (d) {
+      postEl.textContent = fmt(d.value);
+      try { sessionStorage.setItem('vc_' + key, '1'); } catch (e) {}
+      var wrap = document.getElementById('vc_post_pv_wrap');
+      if (wrap) wrap.style.display = '';
+    }).catch(function () {});
+  }
+})();
+</script>
+
+
+
+		<!-- Search -->
+		
+		<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="SEARCH..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res || !localStorage.getItem('searchJson')) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json']);
+          },
+          error: function (e) {
+            console.error('Unable to load the local search index.', e);
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var storedSearchData = localStorage.getItem('searchJson');
+      if (!storedSearchData) {
+        resultContent.innerHTML = '<div id="no-result">Loading search index…</div>';
+        proceedsearch();
+        return;
+      }
+
+      var datas;
+      try {
+        datas = JSON.parse(storedSearchData);
+      } catch (error) {
+        localStorage.removeItem('searchJson');
+        resultContent.innerHTML = '<div id="no-result">Search index could not be loaded. Please try again.</div>';
+        proceedsearch();
+        return;
+      }
+      if (!Array.isArray(datas)) {
+        resultContent.innerHTML = '<div id="no-result">Search index is unavailable.</div>';
+        proceedsearch();
+        return;
+      }
+      isfetched = true;
+
+      function escapeHtml(value) {
+        return String(value).replace(/[&<>'"]/g, function (character) {
+          return ({'&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'})[character];
+        });
+      }
+
+      function safeUrl(value) {
+        try {
+          var url = decodeURIComponent(value || '');
+          return /^(?:https?:)?\/\//i.test(url) || /^(?:\/|\.\/|\.\.\/)/.test(url) ? url : '#';
+        } catch (error) {
+          return '#';
+        }
+      }
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = safeUrl(data.url);
+
+            var date = data.date || '';
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += escapeHtml(text.substring(prevEnd, hit.position));
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + escapeHtml(text.substring(hit.position, end)) + '</b>';
+                  prevEnd = end;
+                });
+                result += escapeHtml(text.substring(prevEnd, slice.end));
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' rel='noopener noreferrer' href='" + escapeHtml(articleUrl) + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + escapeHtml(dateTime) + "</time>";
+              } else {
+                resultItem += "<a target='_blank' rel='noopener noreferrer' href='" + escapeHtml(articleUrl) + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + escapeHtml(title) + "</div><time class='search-result-date'>" + escapeHtml(dateTime) + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + escapeHtml(safeUrl(imgUrl)) + "' width='64' height='48' alt=''></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+		
+	</body>
+</html>
