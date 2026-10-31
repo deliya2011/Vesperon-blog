@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.vesperon.online/cn/csp-2026/</loc>
+    
+    <lastmod>2026-10-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.vesperon.online/cn/gxyz-1029-div2-t2/</loc>
     
     <lastmod>2026-10-29</lastmod>
@@ -130,7 +139,7 @@
 
   <url>
     <loc>https://blog.vesperon.online/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,21 +147,21 @@
   
   <url>
     <loc>https://blog.vesperon.online/tags/%E8%A7%82%E9%B8%9F/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.vesperon.online/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.vesperon.online/tags/oi/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -161,14 +170,21 @@
   
   <url>
     <loc>https://blog.vesperon.online/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.vesperon.online/categories/%E6%B8%B8%E8%AE%B0/</loc>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.vesperon.online/categories/%E9%A2%98%E8%A7%A3/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

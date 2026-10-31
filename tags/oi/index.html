@@ -427,48 +427,28 @@
                 post-container
             ">
 
-      <!-- Main Content -->
+      <!-- 单个tag页：hexo-generator-tag 会传入 page.posts（仅该tag下的文章）。
+     主题原先缺这个布局，回退到 archive.ejs，导致列成了全站文章。 -->
+
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1">
-      <!-- 归档列表 -->
-
       
-
-      <!-- 归档列表 -->
-      
-      <div class="one-tag-list">
-        <span class="fa fa-calendar-times-o listing-seperator" id="2026">
-          <span class="tag-text">2026</span>
-        </span>
-        <ul>
-          
-          <li>
-            10-29
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/gxyz-1029-div2-t2/" style="color: #0085a1">
-              <span>GXYZ 10.29 DIV2 T2 题解</span>
-            </a>
-          </li>
-          
-          <li>
-            10-28
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/birdwatching/" style="color: #0085a1">
-              <span>浅谈观鸟</span>
-            </a>
-          </li>
-          
-          <li>
-            10-25
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/hello-world/" style="color: #0085a1">
-              <span>Hello World</span>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
+      <ul class="listing" style="list-style:none;padding-left:0;">
+        
+        <li style="margin:.6em 0;">
+          <time>2026-11-01</time>
+          <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+          <a href="/cn/csp-2026/" style="color: #0085a1">CSP 2026 游寄</a>
+        </li>
+        
+        <li style="margin:.6em 0;">
+          <time>2026-10-29</time>
+          <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+          <a href="/cn/gxyz-1029-div2-t2/" style="color: #0085a1">GXYZ 10.29 DIV2 T2 题解</a>
+        </li>
+        
+      </ul>
       
     </div>
   </div>
@@ -559,6 +539,10 @@
 <div class="widget">
   <ul>
     
+    <a href="../../cn/csp-2026/">
+      <li>CSP 2026 游寄</li>
+    </a>
+    
     <a href="../../cn/gxyz-1029-div2-t2/">
       <li>GXYZ 10.29 DIV2 T2 题解</li>
     </a>
@@ -600,6 +584,12 @@
     
     
     <li class="archive-list-item">
+      <a class="archive-list-link" href="/archive/#2026">2026 年 11 月</a>
+      <span class="archive-list-count">1</span>
+    </li>
+    
+    
+    <li class="archive-list-item">
       <a class="archive-list-link" href="/archive/#2026">2026 年 10 月</a>
       <span class="archive-list-count">3</span>
     </li>
@@ -618,6 +608,10 @@
     
     <a href="/categories/#随笔">
       <li>随笔</li>
+    </a>
+    
+    <a href="/categories/#游记">
+      <li>游记</li>
     </a>
     
     <a href="/categories/#题解">
